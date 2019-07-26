@@ -1,3 +1,3 @@
-import View from './home-view';
+import Container from './home-container';
 
-export default View;
+export default Container;
