@@ -1,7 +1,7 @@
 {
   "name": "youloader-web",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -11,7 +11,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "checklint": "eslint src -c .eslintrc.js --ext js,jsx",
+    "fixlint": "eslint --fix src -c .eslintrc.js --ext js,jsx",
+    "checkprettier": "prettier --check \"src/**/*.{json,css,scss,md}\"",
+    "fixprettier": "prettier --write \"src/**/*.{,json,css,scss,md}\"",
+    "doc": "react-doc-generator src/ -o DOCUMENTATION.md"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +32,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "react-doc-generator": "^1.2.5"
   }
 }
