@@ -11,6 +11,7 @@ const View = ({ id }) => (
             height: '64px',
             border: 0,
             overflow: 'hidden',
+            borderRadius: '0.8rem',
         }}
         src={`https://break.tv/widget/button/?link=https://www.youtube.com/watch?v=${id}&color=ff0000&text=fff`}
     />

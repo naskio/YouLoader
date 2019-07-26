@@ -1,0 +1,44 @@
+.form-custom {
+    height: 6rem;
+    border: 0.1rem solid #ff0000;
+    margin: 0;
+    padding: 0;
+}
+
+.button-custom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 0 1rem 1rem 0;
+    background: #ff0000;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.input-custom {
+    padding-left: 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.button-custom:disabled{
+    background: #fa0000;
+}
+
+.button-custom:hover{
+    background: #e10000;
+}
+
+.button-custom:active{
+    background: #c10000;
+}
+
+.input-custom:focus, .button-custom:focus {
+    outline: none !important;
+    border:1px solid #ff0000;
+    box-shadow: 0 0 0.2rem #ff0000;
+}

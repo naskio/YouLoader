@@ -1,7 +1,8 @@
 #container {
-    background-image: url('../../assets/background.png');
+    background-image: url('../../assets/background_0.png');
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     min-height: 100vh;
     position: relative;
@@ -16,6 +17,22 @@
     bottom: 0;
     width: 100vw;
     height: 3rem; /* Footer height */
+}
+
+.Home-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ff0000;
+    margin: 0;
+    padding: 0;
+}
+
+.Home-subtitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #282828;
+    margin: 0;
+    padding: 0;
 }
 
 footer{
