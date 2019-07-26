@@ -1,0 +1,22 @@
+.Header-title {
+    font-size: 6vw;
+    font-weight: bold;
+    color: #282828;
+}
+
+.Header-group{
+    line-height: 1.2;
+}
+
+.Header-subtitle {
+    font-size: 2vw;
+    font-weight: normal;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+.Header-logo {
+    height: 8vw;
+    pointer-events: none;
+}
