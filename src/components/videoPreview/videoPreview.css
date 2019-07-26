@@ -1,0 +1,22 @@
+.Video-title {
+    font-size: 6vw;
+    font-weight: bold;
+    color: #282828;
+}
+
+.Video-group{
+    line-height: 1.2;
+}
+
+.Video-subtitle {
+    font-size: 2vw;
+    font-weight: normal;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+.Video-logo {
+    height: 8vw;
+    pointer-events: none;
+}
