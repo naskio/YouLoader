@@ -1,0 +1,8 @@
+public/**
+src/__tests__/**
+src/**/*.test.js
+src/**/*.spec.js
+src/serviceWorker.js
+src/index.js
+**/.DS_Store
+**/.DS_STORE
