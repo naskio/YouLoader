@@ -4,7 +4,7 @@ import './background.css';
 export default class View extends React.PureComponent {
     render() {
         return (
-            <div className="background">
+            <div className="d-none d-md-block background">
                 <div className="note note-1">&#9835; &#9833;</div>
                 <div className="note note-2">&#9833;</div>
                 <div className="note note-3">&#9839; &#9834;</div>

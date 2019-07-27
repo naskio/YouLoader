@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     position: absolute;
-    width: 80%;
+    width: 100%;
     right: 0;
     left: 0;
     bottom: 2rem;
@@ -14,6 +14,7 @@
     position: absolute;
     animation: notes 2s infinite linear;
     font-size: 2rem;
+    font-weight: 100;
     opacity: 0;
 }
 
@@ -25,19 +26,19 @@
 
 .note-2 {
     top: 20px;
-    left: 40%;
+    left: 25%;
     animation-delay: 1s;
 }
 
 .note-3 {
     top: 90px;
-    left: 60%;
+    left: 65%;
     animation-delay: 1.5s;
 }
 
 .note-4 {
     top: 40px;
-    left: 80%;
+    left: 85%;
     animation-delay: 2.5s;
 }
 

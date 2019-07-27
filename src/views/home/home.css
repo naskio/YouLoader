@@ -44,3 +44,7 @@ footer{
     color: #707070;
     font-weight: normal;
 }
+
+footer > a {
+    color: #707070;
+}
