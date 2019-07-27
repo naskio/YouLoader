@@ -1,5 +1,5 @@
 #container {
-    background-image: url('../../assets/background_0.png');
+    /*background-image: url('../../assets/background_0.png');*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +10,7 @@
 
 #content-wrap {
     padding-bottom: 3.5rem; /* Footer height */
+    z-index: 10;
 }
 
 #footer {

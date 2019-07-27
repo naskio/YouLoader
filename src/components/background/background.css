@@ -1,0 +1,61 @@
+.background {
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    width: 80%;
+    right: 0;
+    left: 0;
+    bottom: 2rem;
+    z-index: -1;
+    height: 20vh;
+}
+
+.note {
+    position: absolute;
+    animation: notes 2s infinite linear;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.note-1 {
+    top: 60px;
+    left: 0;
+    animation-delay: 0.5s;
+}
+
+.note-2 {
+    top: 20px;
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.note-3 {
+    top: 90px;
+    left: 60%;
+    animation-delay: 1.5s;
+}
+
+.note-4 {
+    top: 40px;
+    left: 80%;
+    animation-delay: 2.5s;
+}
+
+@keyframes notes {
+    0% {
+        transform: scale(1) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5) translate(50%, -50%);
+    }
+    80% {
+        opacity: 0;
+        transform: scale(1.5) translate(100%, -100%);
+    }
+    100% {
+        transform: scale(1.5) translate(100%, -100%);
+        opacity: 0;
+    }
+}

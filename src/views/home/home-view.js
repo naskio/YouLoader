@@ -3,6 +3,7 @@ import './home.css';
 import Header from '../../components/header/index';
 import SearchBar from '../../components/searchBar/index';
 import VideoPreview from '../../components/videoPreview/index';
+import Background from '../../components/background/index';
 
 import icInfo from '../../assets/icons/outline-info-24px.svg';
 
@@ -20,6 +21,7 @@ export default class View extends React.PureComponent {
         } = this.props;
         return (
             <div id="container" className="container-fluid">
+                <Background />
                 <div id="content-wrap" className="d-flex flex-column align-items-center pt-5">
                     <Header />
                     <SearchBar action={searchAction} clear={clearAction} showClear={showClear} />
