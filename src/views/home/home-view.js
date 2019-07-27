@@ -23,7 +23,7 @@ export default class View extends React.PureComponent {
                 <div id="content-wrap" className="d-flex flex-column align-items-center pt-5">
                     <Header />
                     <SearchBar action={searchAction} clear={clearAction} showClear={showClear} />
-                    <div className="Home-title mt-4 mb-2 text-center">
+                    <div className="d-none d-md-block Home-title mt-4 mb-2 text-center">
                         Convert any video from youtube to mp3 for FREE (No ads)
                     </div>
                     <div className="Home-subtitle mt-2 mb-2 text-center">
@@ -41,7 +41,15 @@ export default class View extends React.PureComponent {
                     )}
                 </div>
                 <footer id="footer" className="text-center">
-                    Copyright © 2019 YouLoader. By Mehdi Nassim KHODJA
+                    {'By '}
+                    <a
+                        className="d-inline"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://linkedin.com/in/khodjamehdinassim/"
+                    >
+                        Mehdi Nassim KHODJA
+                    </a>
                 </footer>
             </div>
         );

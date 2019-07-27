@@ -4,6 +4,10 @@
     color: #282828;
 }
 
+.Header-title-mobile {
+    font-size: 2.5rem;
+}
+
 .Header-group{
     line-height: 1.2;
 }
@@ -16,7 +20,15 @@
     padding: 0;
 }
 
+.Header-subtitle-mobile {
+    font-size: 1rem;
+}
+
 .Header-logo {
     height: 8vw;
     pointer-events: none;
+}
+
+.Header-logo-mobile{
+    height: 8rem;
 }

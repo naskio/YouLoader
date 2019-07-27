@@ -18,11 +18,35 @@
     font-weight: 600;
 }
 
+.button-custom-mobile {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 0 1rem 1rem 0;
+    background: #ff0000;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .input-custom {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 12rem;
     border-radius: 1rem;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+.input-custom-mobile {
+    padding-left: 1rem;
+    padding-right: 6rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 4rem;
 }
 
 .button-custom:disabled{

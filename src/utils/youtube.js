@@ -5,6 +5,5 @@ const regex = RegExp(
 export const youtubeUrlChecker = url => url && regex.test(url);
 
 export const youtubeIdExtractor = url => {
-    const lastIndex = url.lastIndexOf('v=');
-    return url.substring(lastIndex + 2, lastIndex + 13);
+    return url.substring(url.length - 11);
 };

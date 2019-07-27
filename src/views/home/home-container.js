@@ -18,6 +18,7 @@ export default class Container extends React.Component {
 
     action = url => {
         const id = youtubeIdExtractor(url);
+        console.log('ID', id);
         // if (!id || id.length !== 11) {
         //     this.clear();
         // }
