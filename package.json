@@ -2,6 +2,7 @@
   "name": "youloader-web",
   "version": "0.1.0",
   "private": false,
+  "homepage": "http://MehdiNassim.github.io/YouLoader",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
@@ -19,7 +20,9 @@
     "fixlint": "eslint --fix src -c .eslintrc.js --ext js,jsx",
     "checkprettier": "prettier --check \"src/**/*.{json,css,scss,md}\"",
     "fixprettier": "prettier --write \"src/**/*.{,json,css,scss,md}\"",
-    "doc": "react-doc-generator src/ -o DOCUMENTATION.md"
+    "doc": "react-doc-generator src/ -o DOCUMENTATION.md",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "react-doc-generator": "^1.2.5"
   }
