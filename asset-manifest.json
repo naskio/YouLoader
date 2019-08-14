@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/YouLoader/static/css/main.2128e35c.chunk.css",
+    "main.js": "/YouLoader/static/js/main.c3c1d7b6.chunk.js",
+    "main.js.map": "/YouLoader/static/js/main.c3c1d7b6.chunk.js.map",
+    "runtime~main.js": "/YouLoader/static/js/runtime~main.68a657a2.js",
+    "runtime~main.js.map": "/YouLoader/static/js/runtime~main.68a657a2.js.map",
+    "static/css/2.266e55a5.chunk.css": "/YouLoader/static/css/2.266e55a5.chunk.css",
+    "static/js/2.cce13f29.chunk.js": "/YouLoader/static/js/2.cce13f29.chunk.js",
+    "static/js/2.cce13f29.chunk.js.map": "/YouLoader/static/js/2.cce13f29.chunk.js.map",
+    "index.html": "/YouLoader/index.html",
+    "precache-manifest.e7edeca204ccb88b1da52b21d15e15eb.js": "/YouLoader/precache-manifest.e7edeca204ccb88b1da52b21d15e15eb.js",
+    "service-worker.js": "/YouLoader/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/YouLoader/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.2128e35c.chunk.css.map": "/YouLoader/static/css/main.2128e35c.chunk.css.map",
+    "static/media/logo.svg": "/YouLoader/static/media/logo.fcfad302.svg",
+    "static/media/outline-clear-24px.svg": "/YouLoader/static/media/outline-clear-24px.2b1c8be0.svg",
+    "static/media/outline-info-24px.svg": "/YouLoader/static/media/outline-info-24px.59d1a698.svg",
+    "static/media/outline-search-24px.svg": "/YouLoader/static/media/outline-search-24px.8206b645.svg"
+  }
+}
